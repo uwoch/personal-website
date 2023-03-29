@@ -7,9 +7,17 @@
   }
   img {
     border-radius: 15px;
-    width: 400px;
+    width: 75%;
   }
 
   .logo {
-    width: 200;
+    width: 25%;
   }
+  a {
+    text-decoration: none;
+    color: black
+  }
+  a:hover { 
+    color: orange; 
+    }
+  
