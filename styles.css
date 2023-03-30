@@ -34,9 +34,10 @@ img {
 li {
   display: inline;
   padding: 0;
-
-
 }
 .without  {
   padding-left: 0;
+}
+li::before {
+  content: ⏩️;
 }
