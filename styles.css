@@ -3,25 +3,30 @@
   }
   body {
     font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
-
+    margin: 20px;
   }
 img {
   width: 15%;
-
+  margin: 0;
+padding: 0;
 }
   .logo {
     width: 5%;
   }
-  a {
+  a, ul {
     text-decoration: none;
     color: black
   }
   a:hover { 
     color: orange; 
     }
-  section {
-    background-color: rgb(242, 239, 239);
-   padding: 5px;
+
+  a:visited {
+    color: grey
+  }
+
+   section {
+   padding-left: 0px;
   }
   .left {
     float: left;
@@ -29,15 +34,26 @@ img {
   }
  a href {
   padding: 20px;
-
  }
-li {
-  display: inline;
-  padding: 0;
-}
-.without  {
+.menu  {
+  display: flex;
   padding-left: 0;
+  font-size: 18px;
+  justify-content: left;
+  flex-wrap: wrap;
+  text-decoration: none;
+  gap: 40px;
 }
-li::before {
-  content: ⏩️;
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+figure {
+margin: 0;
+}
+.about {
+margin-top: 30px;
+}
+.biography {
 }
