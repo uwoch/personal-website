@@ -4,6 +4,7 @@
   body {
     font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
     margin: 20px;
+    max-width: 1200px;
   }
 img {
   width: 200px;
@@ -11,10 +12,9 @@ img {
   margin-bottom: 10px;
   border-radius: 5px;
   margin-right: 10px;
-  margin-left: 20px;
 }
   .logo {
-    width: 10%;
+    width: 100px;
   }
   a, ul {
     text-decoration: none;
@@ -30,9 +30,10 @@ img {
    section {
    padding-left: 0px;
   }
-  .left {
+  .me {
     float: right;
    margin-right:0px;
+   margin-left: 20px;
   }
  a href {
   padding: 20px;
